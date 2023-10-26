@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/piano-practice/static/css/main.9b81591a.css",
+    "main.js": "/piano-practice/static/js/main.0fbd49cd.js",
+    "static/js/787.ae7f76ea.chunk.js": "/piano-practice/static/js/787.ae7f76ea.chunk.js",
+    "index.html": "/piano-practice/index.html",
+    "main.9b81591a.css.map": "/piano-practice/static/css/main.9b81591a.css.map",
+    "main.0fbd49cd.js.map": "/piano-practice/static/js/main.0fbd49cd.js.map",
+    "787.ae7f76ea.chunk.js.map": "/piano-practice/static/js/787.ae7f76ea.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b81591a.css",
+    "static/js/main.0fbd49cd.js"
+  ]
+}
