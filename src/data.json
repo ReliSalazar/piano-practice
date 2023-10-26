@@ -176,6 +176,72 @@
         "NotesAsc": ["A", "B", "C", "D", "E", "F#", "G#", "A"],
         "NotesDesc": ["A", "B", "C", "D", "E", "F", "G", "A"],
         "Image": "AMelodicMinor"
+      },
+      {
+        "Name": "A# / Bb Melodic Minor",
+        "NotesAsc": ["Bb", "C", "Db", "Eb", "F", "G", "A", "Bb"],
+        "NotesDesc": ["Bb", "C", "Db", "Eb", "F", "Gb", "Ab", "Bb"],
+        "Image": "ASharpMelodicMinor"
+      },
+      {
+        "Name": "B Melodic Minor",
+        "NotesAsc": ["B", "C#", "D", "E", "F#", "G#", "A#", "B"],
+        "NotesDesc": ["B", "C#", "D", "E", "F#", "G", "A", "B"],
+        "Image": "BMelodicMinor"
+      },
+      {
+        "Name": "C Melodic Minor",
+        "NotesAsc": ["C", "D", "Eb", "F", "G", "A", "B", "C"],
+        "NotesDesc": ["C", "D", "Eb", "F", "G", "Ab", "Bb", "C"],
+        "Image": "CMelodicMinor"
+      },
+      {
+        "Name": "C# / Db Melodic Minor",
+        "NotesAsc": ["C#", "D#", "E", "F#", "G#", "A#", "C", "C#"],
+        "NotesDesc": ["C#", "D#", "E", "F#", "G#", "A", "B", "C#"],
+        "Image": "CSharpMelodicMinor"
+      },
+      {
+        "Name": "D Melodic Minor",
+        "NotesAsc": ["D", "E", "F", "G", "A", "B", "C#", "D"],
+        "NotesDesc": ["D", "E", "F", "G", "A", "Bb", "C", "D"],
+        "Image": "DMelodicMinor"
+      },
+      {
+        "Name": "D# / Eb Melodic Minor",
+        "NotesAsc": ["D#", "F", "F#", "G#", "A#", "C", "D", "D#"],
+        "NotesDesc": ["D#", "F", "F#", "G#", "A#", "B", "C#", "D#"],
+        "Image": "DSharpMelodicMinor"
+      },
+      {
+        "Name": "E Melodic Minor",
+        "NotesAsc": ["E", "F#", "G", "A", "B", "C#", "D#", "E"],
+        "NotesDesc": ["E", "F#", "G", "A", "B", "C", "D", "E"],
+        "Image": "EMelodicMinor"
+      },
+      {
+        "Name": "F Melodic Minor",
+        "NotesAsc": ["F", "G", "Ab", "Bb", "C", "D", "E", "F"],
+        "NotesDesc": ["F", "G", "Ab", "Bb", "C", "Db", "Eb", "F"],
+        "Image": "FMelodicMinor"
+      },
+      {
+        "Name": "F# Melodic Minor",
+        "NotesAsc": ["F#", "G#", "A", "B", "C#", "D#", "F", "F#"],
+        "NotesDesc": ["F#", "G#", "A", "B", "C#", "D", "E", "F#"],
+        "Image": "FSharpMelodicMinor"
+      },
+      {
+        "Name": "G Melodic Minor",
+        "NotesAsc": ["G", "A", "Bb", "C", "D", "E", "F#", "G"],
+        "NotesDesc": ["G", "A", "Bb", "C", "D", "Eb", "F", "G"],
+        "Image": "GMelodicMinor"
+      },
+      {
+        "Name": "G# / Ab Melodic Minor",
+        "NotesAsc": ["G#", "A#", "B", "C#", "D#", "F", "G", "G#"],
+        "NotesDesc": ["G#", "A#", "B", "C#", "D#", "E", "F#", "G#"],
+        "Image": "GSharpMelodicMinor"
       }
     ],
     "Anotations": [
