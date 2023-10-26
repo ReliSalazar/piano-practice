@@ -20,10 +20,9 @@ const ChordsGenerator: React.FC<ChordsGeneratorProps> = () => {
 export default ChordsGenerator;
 /*
 {
-        "Name": "A Minor",
-        "Notes": [],
-        "FingeringLH": [],
-        "FingeringRH": [],
-        "Image": "AMinor"
+        "Name": "A Melodic Minor",
+        "NotesAsc": [],
+        "NotesDesc": [],
+        "Image": "AMelodicMinor"
       }
 */
