@@ -1,3 +1,8 @@
 .ChordGeneratorWrapper {
-  border: 1px solid salmon;
+}
+
+.Select {
+  border: 1px solid white;
+  background-color: #222;
+  color: white;
 }

@@ -1,3 +1,9 @@
+export interface ScalesType {
+  Major: Symbol;
+  NaturalMinor: Symbol;
+  MelodicMinor: Symbol;
+}
+
 export interface Anotation {
   Title: string;
   Body: string;

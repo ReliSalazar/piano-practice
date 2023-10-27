@@ -1,5 +1,6 @@
 {
   "Major": {
+    "Name": "Major",
     "Intervals": ["1", "2", "3", "4", "5", "6", "7"],
     "SemiNotes": [2, 2, 1, 2, 2, 2, 1],
     "Scales": [
@@ -91,6 +92,7 @@
     "Anotations": []
   },
   "NaturalMinor": {
+    "Name": "Natural Minor",
     "Intervals": ["1", "2", "3b", "4", "5", "6b", "7b"],
     "SemiNotes": [2, 1, 2, 2, 1, 2, 2],
     "Scales": [
@@ -168,6 +170,7 @@
     "Anotations": []
   },
   "MelodicMinor": {
+    "Name": "Melodic Minor",
     "Intervals": ["1", "2", "3b", "4", "5", "6", "7"],
     "SemiNotes": [2, 1, 2, 2, 2, 2, 1],
     "Scales": [

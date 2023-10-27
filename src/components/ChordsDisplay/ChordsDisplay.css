@@ -1,12 +1,11 @@
 .ChordsDisplay {
-  border: 1px solid salmon;
   height: 100%;
 }
 
 .ChordWrapper {
-  border: 1px solid teal;
+  border: 1px solid var(--primary-color);
 }
 
 .ContentColumn {
-  border: 1px solid salmon;
 }
+

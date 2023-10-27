@@ -2,26 +2,44 @@ import React, { useState } from "react";
 import Header from "components/Header";
 import ChordsDisplay from "components/ChordsDisplay";
 import ChordsGenerator from "components/ChordsGenerator";
-import { Chord } from "./App.d";
-
+import data from "data.json";
+import { Chord, ScalesType } from "./App.d";
 import "./App.css";
 
-const Scales = {
+const Scales: ScalesType = {
   Major: Symbol(),
   NaturalMinor: Symbol(),
   MelodicMinor: Symbol(),
 };
 
+const defaultChords = data.Major.Scales.map((chord: any) => {
+  chord = {
+    ...chord,
+    ScaleIntervals: data.Major.Intervals,
+    ScaleSemiNotes: data.Major.SemiNotes,
+  };
+  return chord;
+});
+
 function App() {
-  const [selectedScale, setSelectedScale] = useState<Symbol | null>(null);
-  const [amountOfRandomChords, setAmountOfRandomChords] = useState<number>(0);
-  const [randomChords, setRandomChords] = useState<Chord[]>([]);
+  const [selectedScale, setSelectedScale] = useState<Symbol>(Scales.Major);
+  const [amountOfChords, setAmountOfChords] = useState<number>(12);
+  const [chordsToDisplay, setChordsToDisplay] =
+    useState<Chord[]>(defaultChords);
 
   return (
     <>
       <Header />
-      <ChordsGenerator />
-      <ChordsDisplay />
+      <ChordsGenerator
+        data={data}
+        Scales={Scales}
+        selectedScale={selectedScale}
+        setSelectedScale={setSelectedScale}
+        amountOfChords={amountOfChords}
+        setAmountOfChords={setAmountOfChords}
+        setChordsToDisplay={setChordsToDisplay}
+      />
+      <ChordsDisplay chordsToDisplay={chordsToDisplay} />
     </>
   );
 }
