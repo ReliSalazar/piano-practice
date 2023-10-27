@@ -27,6 +27,17 @@ function App() {
   const [chordsToDisplay, setChordsToDisplay] =
     useState<Chord[]>(defaultChords);
 
+  // TODO
+  /**
+   * Change structure so we have all we need.
+   *
+   * - Select options without symbols so we can add random option
+   * - Render the whole view based on selected scale
+   * - Put intervals and anotations on top
+   * - Render scales on smaller cards with big name an info secction
+   *   as spoiler on discord with specific info about that chord.
+   */
+
   return (
     <>
       <Header />
